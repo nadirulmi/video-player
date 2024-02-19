@@ -1,6 +1,14 @@
-# React + Vite
+# Reproductor de video
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto consiste en el desarrollo de una página web que incluye un reproductor de video básico utilizando la biblioteca react-player. La página está diseñada para ser simple y funcional, permitiendo a los usuarios reproducir, pausar, detener un único video, entre otras funcionalidades. Se utiliza HTML, CSS y React para el desarrollo, asegurando de que la página sea responsive y se vea bien en dispositivos de diferentes tamaños. 
+
+## Configuración del Proyecto
+- Clona el repositorio: git clone https://github.com/nadirulmi/video-player.git.
+- Entra al directorio del proyecto.
+- Instala las dependencias: `npm install`.
+
+## Ejecución del Proyecto
+- En la carpeta raíz (video-player): `npm run dev`.
 
 Currently, two official plugins are available:
 
