@@ -1,5 +1,8 @@
 import VideoPlayer from "../components/video-player/VideoPlayer";
 import "./section.css";
+import family from "../assets/family.jpg";
+import futbol from "../assets/futbol.jpg";
+
 export const Section = () => {
   return (
     <div className="container">
@@ -16,7 +19,7 @@ export const Section = () => {
           ></path>
         </svg>
       </div>
-      <h1>PITZ APP</h1>
+      <h1>¿QUE ES PITZ APP?</h1>
       <p>
         En los años 90, los padres no tenían la facilidad de grabar videos con
         sus teléfonos como hoy en día. Obtener videos de los niños practicando
@@ -24,26 +27,44 @@ export const Section = () => {
         imágenes de calidad de sus hijos jugando al fútbol, invirtieron en
         cámaras portátiles, pero aún así no estaban satisfechos. Querían videos
         de calidad que reflejaran el espíritu del juego de sus hijos. Así nació{" "}
-        <span style={{ color: "#FF025F", fontWeight: "bold" }}>PITZ</span>{" "}
+        <span style={{ color: "#FF025F", fontWeight: "bold", fontSize:"1.7rem" }}>PITZ</span>{" "}
         (Parents in the Zone), una empresa que ofrece un supergenerador de
         momentos destacados para el deporte juvenil, permitiendo a los padres
         disfrutar de los juegos de sus hijos y compartir momentos de calidad en
         redes sociales.
       </p>
       <VideoPlayer />
-      <div class="custom-shape-divider-bottom-1708376835">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-            class="shape-fill"
-          ></path>
-        </svg>
-      </div>
+      <section className="pictures-section">
+        <div>
+          <img src={family} alt="family picture"></img>
+        </div>
+        <div>
+          <h2>Mision</h2>
+          <p>
+            Nuestra misión es proporcionar el contenido digital más increíble
+            sobre deportes juveniles. Nos esforzamos por ser una fuente
+            confiable y apasionante de información, entretenimiento y motivación
+            para jóvenes atletas, entrenadores, padres y aficionados, fomentando
+            el amor por el deporte y el desarrollo personal tanto dentro como
+            fuera del campo.
+          </p>
+        </div>
+      </section>
+      <section className="pictures-section-reverse">
+        <div>
+          <img src={futbol} alt="child playing soccer"></img>
+        </div>
+        <div>
+          <h2>Vision</h2>
+          <p>
+            Impulsados por una fuerte convicción en el impacto de los deportes
+            juveniles, imaginamos un futuro en el que las experiencias de
+            contenido innovadoras transformen nuestra interacción con el juego.
+            Nuestro compromiso es ofrecer constantemente la experiencia de
+            contenido más excepcional para nuestros padres PITZ.
+          </p>
+        </div>
+      </section>
     </div>
   );
 };
