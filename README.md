@@ -1,5 +1,7 @@
 # Reproductor de video
 
+![video-player](https://github.com/nadirulmi/video-player/assets/106765602/4241f9b7-db66-4005-8e19-c8130814180e)
+
 Este proyecto consiste en el desarrollo de una página web que incluye un reproductor de video básico utilizando la biblioteca react-player. La página está diseñada para ser simple y funcional, permitiendo a los usuarios reproducir, pausar, detener un único video, entre otras funcionalidades. Se utiliza HTML, CSS y React para el desarrollo, asegurando de que la página sea responsive y se vea bien en dispositivos de diferentes tamaños. 
 
 ## Configuración del Proyecto
