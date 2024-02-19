@@ -1,5 +1,7 @@
 import VideoPlayer from "../components/video-player/VideoPlayer";
 import "./section.css";
+
+//images
 import family from "../assets/family.jpg";
 import futbol from "../assets/futbol.jpg";
 
@@ -27,7 +29,11 @@ export const Section = () => {
         imágenes de calidad de sus hijos jugando al fútbol, invirtieron en
         cámaras portátiles, pero aún así no estaban satisfechos. Querían videos
         de calidad que reflejaran el espíritu del juego de sus hijos. Así nació{" "}
-        <span style={{ color: "#FF025F", fontWeight: "bold", fontSize:"1.7rem" }}>PITZ</span>{" "}
+        <span
+          style={{ color: "#FF025F", fontWeight: "bold", fontSize: "1.7rem" }}
+        >
+          PITZ
+        </span>{" "}
         (Parents in the Zone), una empresa que ofrece un supergenerador de
         momentos destacados para el deporte juvenil, permitiendo a los padres
         disfrutar de los juegos de sus hijos y compartir momentos de calidad en
